@@ -1,5 +1,7 @@
 package com.dimzfresh;
 
+import java.util.Scanner;
+
 public class Main {
 
     public static void main(String[] args) {
@@ -22,8 +24,20 @@ public class Main {
             System.out.print("i = " + i + "\n");
         }
 
-        System.out.print("Loop 'for' is finished!");
+        System.out.print("Loop 'for' is finished!\n");
 
+        //3. do
+
+        Scanner scanner = new Scanner(System.in);
+        int number;
+
+        do {
+            System.out.print("Enter number!");
+            number = scanner.nextInt();
+
+        } while (number>0);
+
+        System.out.print("Loop 'do' is finished!");
 
     }
 }
