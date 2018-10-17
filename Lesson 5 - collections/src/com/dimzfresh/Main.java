@@ -19,8 +19,12 @@ public class Main {
 
         int[] numbers2 = {1, 3, 5, 8, 12};
 
-        for (int i = 0; i < numbers2.length; i++) {
-            int n = numbers2[i];
+        //for (int i = 0; i < numbers2.length; i++) {
+            //int n = numbers2[i];
+            //System.out.print("number = " + n + "\n");
+        //}
+
+        for (int n: numbers2) {
             System.out.print("number = " + n + "\n");
         }
 
